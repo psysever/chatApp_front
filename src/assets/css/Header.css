@@ -1,0 +1,113 @@
+h5.top_banner {
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 4.2rem;
+  font-weight: 500;
+  border-bottom: 0.1rem solid #e5e5e5;
+}
+
+h5.top_banner a {
+  display: block;
+}
+
+.header_wrap {
+  width: 100%;
+}
+
+.header {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  padding: 0 22.2rem 0 24.2rem;
+}
+
+.active_header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.header_wrap .active_header a {
+  color: #000;
+}
+
+.header h1 {
+  width: 8.2rem;
+}
+
+.header h1 a {
+  display: block;
+  font-size: 0;
+}
+
+.header_right {
+  display: flex;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 3.6rem;
+}
+
+.header_nav li {
+  margin-left: 4.5rem;
+}
+
+.header_nav li a {
+  color: #fff;
+}
+
+.active_header_wrap .header_nav li a {
+  color: #000;
+}
+
+.header_icon {
+  display: flex;
+  align-items: center;
+  font-size: 0;
+}
+
+.header_icon > div {
+  width: 2.9rem;
+  margin-left: 2.8rem;
+  cursor: pointer;
+}
+
+.header_icon .i_hamberger {
+  width: 2.7rem;
+}
+
+/* 모바일 */
+
+@media (max-width: 1080px) {
+  h5.top_banner {
+    font-size: 3.2rem;
+    line-height: 8.9rem;
+  }
+
+  .header {
+    height: 19.5rem;
+    padding: 0 8rem;
+  }
+
+  .header h1 {
+    width: 14.3rem;
+  }
+
+  .header_icon > div {
+    width: 6rem;
+    margin-left: 5rem;
+  }
+
+  .header_icon .i_hamberger {
+    width: 6rem;
+  }
+}

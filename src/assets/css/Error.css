@@ -1,0 +1,37 @@
+.error {
+  padding: 14.8rem 32rem 32.1rem;
+}
+
+.error p {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.error a {
+  width: 35.1rem;
+  line-height: 5rem;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  margin: 9rem auto 0;
+}
+
+@media (max-width: 1080px) {
+  .error {
+    padding: 28.4rem 8rem 25rem;
+  }
+
+  .error h2 {
+    margin-bottom: 0;
+  }
+
+  .error p {
+    font-size: 3.5rem;
+  }
+
+  .error a {
+    width: 100%;
+    line-height: 13rem;
+    margin: 16rem auto 0;
+  }
+}

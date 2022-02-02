@@ -1,0 +1,291 @@
+/* 팝업 기본 */
+
+.pop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 99;
+}
+
+.pop [class$='_pop'] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+  z-index: 99;
+}
+
+.close {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+  z-index: 1111;
+}
+
+/* contract_pop 계약 진행 팝업 초대문자 발송 */
+
+.contract_pop,
+.invite_msg_pop,
+.est_submit_pop {
+  width: 610px;
+  padding: 80px 80px 40px;
+  text-align: center;
+}
+
+.contract_pop_tit {
+  margin-bottom: 60px;
+}
+
+.invite_pop_tit {
+  margin-bottom: 40px;
+}
+
+.contract_pop_tit h3,
+.invite_pop_tit h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.invite_pop_tit h3 {
+  margin-bottom: 30px;
+}
+
+.contract_pop_tit p,
+.invite_pop_tit p {
+  font-size: 14px;
+}
+
+.contract_pop input {
+  margin-top: 10px;
+}
+
+.pop .confirm_btn {
+  line-height: 55px;
+  background: #002863;
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pop .confirm_btn a {
+  color: #fff;
+}
+
+.invite_btn_box {
+  margin-top: 20px;
+}
+
+/* 공급계약 약관 팝업 */
+.contract_terms_pop {
+  width: 1000px;
+  padding: 30px 70px 40px 30px;
+}
+
+h3.pop_tit {
+  font-size: 24px;
+  color: #242a32;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.contract_terms_pop > p {
+  padding-left: 5px;
+  line-height: 26px;
+  max-height: 330px;
+  overflow: auto;
+  font-size: 14px;
+}
+
+.pop .terms_pop_btn {
+  margin-top: 70px;
+}
+
+/* 사업자 정보 보기 팝업 */
+.business_info_pop {
+  width: 400px;
+  padding: 30px 30px 40px;
+  font-size: 14px;
+}
+
+.business_img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  margin: 50px auto 30px;
+}
+
+.business_list li {
+  display: flex;
+  padding: 8px 0;
+  line-height: 1.7;
+  border-top: 1px solid #ccc;
+}
+
+.business_list li:last-child {
+  border-bottom: 1px solid #ccc;
+}
+
+.business_list li p {
+  width: 120px;
+  min-width: 120px;
+  font-weight: 500;
+  color: #67798e;
+}
+
+/* 내 정보 변경 */
+.edit_position_pop {
+  width: 510px;
+  padding: 30px 30px 40px;
+}
+
+.edit_position_info h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 55px 0 20px 0;
+}
+
+.edit_position_btn {
+  margin-top: 20px;
+}
+
+/* 낙찰 견적 확인 */
+.winning_bid_pop {
+  width: 1000px;
+  padding: 30px 30px 40px;
+}
+@media screen and (max-width: 1080px) {
+  /* 팝업 기본 */
+  .pop [class$='_pop'] {
+    width: 97rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.08);
+  }
+
+  .close {
+    width: 3.8rem;
+    height: 3.8rem;
+    top: 7rem;
+    right: 7rem;
+  }
+
+  /* contract_pop 계약 진행 팝업 Estimate_submit_pop */
+
+  .contract_pop,
+  .invite_msg_pop,
+  .est_submit_pop {
+    width: 97rem;
+    padding: 18.5rem 7rem 7rem;
+    text-align: center;
+  }
+
+  .contract_pop_tit,
+  .invite_pop_tit {
+    margin-bottom: 12rem;
+  }
+
+  .contract_pop_tit h3,
+  .invite_pop_tit h3 {
+    font-size: 4rem;
+    margin-bottom: 6rem;
+  }
+
+  .contract_pop_tit p,
+  .invite_pop_tit p {
+    font-size: 3.6rem;
+    font-weight: 500;
+  }
+
+  .contract_pop_tit p span {
+    display: block;
+    margin-bottom: 2.7rem;
+  }
+
+  .contract_pop input {
+    margin-top: 2.2rem;
+  }
+
+  .pop .confirm_btn {
+    line-height: 14rem;
+    font-size: 4rem;
+    margin-top: 4rem;
+  }
+
+  .pop .confirm_btn a {
+    color: #fff;
+  }
+
+  /* 공급계약 약관 팝업 */
+  .contract_terms_pop {
+    width: 97rem;
+    padding: 7rem;
+  }
+
+  h3.pop_tit {
+    font-size: 4.6rem;
+    margin-bottom: 8rem;
+  }
+
+  .contract_terms_pop > p {
+    padding-left: 0;
+    line-height: 6rem;
+    max-height: 76rem;
+    font-size: 3.6rem;
+  }
+
+  .pop .terms_pop_btn {
+    margin-top: 10rem;
+  }
+
+  /* 사업자 정보 보기 팝업 */
+  .business_info_pop {
+    width: 97rem;
+    padding: 7rem;
+    font-size: 3.8rem;
+  }
+
+  .business_img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin: 8rem auto 6rem;
+  }
+
+  .business_list li {
+    padding: 1.65rem 0;
+    border-top: 0.3rem solid #ccc;
+  }
+
+  .business_list li:last-child {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .business_list li p {
+    width: 31.6rem;
+    min-width: 31.6rem;
+  }
+
+  /* 내 정보 변경 */
+  .edit_position_pop {
+    padding: 7rem;
+  }
+
+  .edit_position_info h4 {
+    font-size: 4rem;
+    margin: 12rem 0 4rem 0;
+  }
+
+  .edit_position_btn {
+    margin-top: 4rem;
+  }
+}

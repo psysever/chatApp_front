@@ -1,0 +1,140 @@
+.mypage {
+  padding: 14rem 32.2rem;
+}
+.site_detail_top {
+  border-bottom: 0.3rem solid #ccc;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding-bottom: 8rem;
+}
+
+.detail_top_left {
+  display: flex;
+  align-items: center;
+}
+
+.site_detail_top .detail_top_img {
+  display: flex;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #c6c6c8;
+  align-items: center;
+  justify-content: center;
+}
+.site_detail_top .detail_top_img img {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  border: 1px solid #c6c6c8;
+}
+
+.mypage_box {
+  border: 0.1rem solid #ccc;
+  text-align: center;
+  margin-bottom: 4.5rem;
+}
+
+.mypage_box > p {
+  line-height: 5.3rem;
+  background: #f6f6f6;
+}
+
+.mypage_box_info {
+  display: flex;
+  align-items: center;
+  height: 15.5rem;
+}
+
+.mypage_box_info li {
+  width: 25%;
+  height: 10rem;
+  border-right: 0.1rem solid #ccc;
+}
+
+.mypage_box_info li:last-child {
+  border: none;
+}
+
+.mypage_box_info li p {
+  font-size: 1.7rem;
+  padding: 1.5rem 0 2.8rem;
+}
+
+.mypage_box_info li strong {
+  font-size: 2.55rem;
+}
+
+.mypage_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mypage_list li {
+  width: 49.3%;
+}
+
+.mypage_list a {
+  padding: 3.8rem 3.3rem 3.6rem;
+  border: 0.1rem solid #ccc;
+  margin-top: 1.8rem;
+}
+
+.mypage_list h4 {
+  font-size: 2.05rem;
+  font-weight: 500;
+  margin-bottom: 2.6rem;
+}
+
+.mypage_list p {
+  font-size: 1.45rem;
+  color: #999;
+}
+
+@media (max-width: 1080px) {
+  .mypage {
+    padding: 0 8rem 25rem;
+  }
+
+  .mypage_box {
+    margin-bottom: 6rem;
+  }
+
+  .mypage_box > p {
+    font-size: 3rem;
+    line-height: 8rem;
+  }
+
+  .mypage_box_info {
+    height: 20.5rem;
+  }
+
+  .mypage_box_info li p {
+    font-size: 3rem;
+    padding: 1.4rem 0 2rem;
+  }
+
+  .mypage_box_info li strong {
+    font-size: 3rem;
+  }
+
+  .mypage_list li {
+    width: 100%;
+  }
+
+  .mypage_list li a {
+    margin-top: 3.5rem;
+    padding: 4.8rem 3.5rem;
+  }
+
+  .mypage_list h4 {
+    font-size: 3.5rem;
+  }
+
+  .mypage_list p {
+    font-size: 3rem;
+  }
+}

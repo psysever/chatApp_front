@@ -1,0 +1,191 @@
+.container > [class$='_list'] {
+  padding: 14rem 32.2rem;
+}
+
+.container > [class$='_list'] h2 {
+  margin-bottom: 3.8rem;
+}
+
+.container > [class$='_list'] > [class$='_tab'] {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0 8.6rem;
+}
+
+.container > [class$='_list'] > [class$='_tab'] li {
+  margin: 0 5.25rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.9;
+  color: #999;
+  cursor: pointer;
+}
+
+.my_item_list {
+  display: flex;
+  justify-content: center;
+  padding: 10rem auto;
+}
+
+.my_item_list img {
+  width: 35rem;
+  border-radius: 50%;
+}
+
+.info_story {
+  padding: 15rem 0rem 15rem;
+}
+
+.info_story_list li {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.info_story_text {
+  padding: 2.7rem 3.8rem 2.9rem;
+  border-bottom: 2px solid rgb(15, 15, 15);
+}
+
+.info_story_text h3 {
+  font-size: 2.3rem;
+  line-height: 1.3;
+}
+.info_story_text h4:first-child {
+  font-size: 4rem;
+  line-height: 1.3;
+}
+
+.info_story_text p span {
+  font-weight: bold;
+}
+.info_storytwo {
+  padding: 15rem 0rem 15rem;
+}
+
+.info_story_listtwo li {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.info_story_texttwo {
+  padding: 5rem 3.8rem 2.9rem;
+  border-bottom: 2px solid rgb(15, 15, 15);
+}
+
+.info_story_texttwo h4:first-child {
+  font-size: 4rem;
+  line-height: 1.3;
+}
+.info_story_texttwo h4:not(:first-child) {
+  font-size: 2.8rem;
+  line-height: 1.3;
+  border-bottom: 2px solid rgb(15, 15, 15);
+}
+.info_story3 {
+  padding: 15rem 0rem 15rem;
+}
+
+.info_story_list3 li {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.info_story_text3 {
+  padding: 5rem 3.8rem 2.9rem;
+  border-bottom: 2px solid rgb(15, 15, 15);
+}
+
+.info_story_text3 h4:first-child {
+  font-size: 4rem;
+  line-height: 1.3;
+}
+.info_story_text3 h4:not(:first-child) {
+  font-size: 2.8rem;
+  line-height: 1.3;
+}
+
+@media (max-width: 1080px) {
+  .container > [class$='_list'] {
+    padding: 0 8rem 25rem;
+  }
+
+  .container > [class$='_list'] h2 {
+    margin: 0;
+  }
+
+  .container > [class$='_list'] > [class$='_tab'] {
+    margin: 0 0 18.4rem;
+  }
+
+  .container > [class$='_list'] > [class$='_tab'] li {
+    font-size: 4rem;
+    line-height: 2.2;
+  }
+
+  [class$='_list_top'] {
+    align-items: center;
+    margin-bottom: 8rem;
+  }
+
+  [class$='_list_top'] select {
+    width: 32.5rem;
+    height: 10rem;
+    font-size: 3.5rem;
+  }
+
+  [class$='_item_list'] li {
+    width: 47.5%;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+  }
+
+  [class$='_item_list'] li a {
+    padding: 6.3rem 4.9rem 9.5rem 5.7rem;
+  }
+
+  [class$='_item_list'] [class$='_img'] {
+    width: 26.5rem;
+    margin: 0 auto 7rem;
+  }
+
+  [class$='_item_list'] [class$='_text'] h5 {
+    font-size: 4rem;
+    margin-bottom: 2.6rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  [class$='_item_list'] [class$='_text'] p:nth-child(2) {
+    margin-bottom: 3rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 1;
+  }
+
+  [class$='_item_list'] [class$='_text'] .pay {
+    font-size: 4rem;
+  }
+
+  [class$='_item_list'] [class$='_text'] .pay span {
+    font-size: 3.2rem;
+  }
+
+  .container > [class$='_list'] .pagination {
+    padding-top: 11.7rem;
+  }
+
+  .i_soldout,
+  .i_new,
+  .i_best {
+    width: 15rem;
+    line-height: 4rem;
+    font-size: 2.4rem;
+    bottom: 3rem;
+    left: 5.7rem;
+    -webkit-text-size-adjust: none;
+  }
+}

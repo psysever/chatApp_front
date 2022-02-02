@@ -1,0 +1,127 @@
+.my_info_edit_pw_pop {
+  width: 510px;
+  padding: 30px 30px 40px 30px;
+}
+.my_info_edit_pw_pop .pop_tit {
+  margin-bottom: 55px;
+}
+.my_info_edit_pw_pop .btn_box {
+  width: 100%;
+}
+.my_info_edit_pw_pop h4 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #222;
+  margin: 40px 0 20px 0;
+}
+.my_info_edit_pw_pop .small_text {
+  font-weight: 400;
+  font-size: 12px;
+  color: #999;
+  margin-top: 15px;
+}
+.my_info_edit_pw_pop .btn_box {
+  margin-top: 20px;
+}
+/* check_pw 비밀번호 확인 */
+.edit_pw_input_form .check_pw .small_text {
+  opacity: 0;
+}
+/* 일치하지 않음 클래스명 .not_match */
+.edit_pw_input_form .not_match h4 {
+  color: #f60;
+}
+.edit_pw_input_form .not_match input {
+  border: 1px solid #f60;
+}
+.edit_pw_input_form .not_match .small_text {
+  color: #f60;
+  opacity: 1;
+}
+/* MyInfoWithdrawalPop 회원탈퇴 팝업 까망글씨만 조정*/
+.my_info_withdrawal_pop .withdrawal_text {
+  font-size: 12px;
+  line-height: 18px;
+  color: #222;
+  text-align: center;
+  margin-top: 50px;
+}
+.btn_box {
+  display: flex;
+  justify-content: center;
+}
+
+.btn_box > div {
+  width: 220px;
+  line-height: 55px;
+  text-align: center;
+  margin-right: 5px;
+  border: 1px solid #020202;
+  color: #020202;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 9rem;
+}
+
+.btn_box .save,
+.btn_box .agree,
+.btn_box .next,
+.btn_box .ok {
+  background: #020202;
+  color: #fff;
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+.btn_box .cancel a,
+.btn_box .prev a {
+  display: block;
+  color: #020202;
+}
+
+.btn_box .save a,
+.btn_box .agree a,
+.btn_box .next a,
+.btn_box .ok a {
+  display: block;
+  color: #020202;
+}
+
+/* 모바일 반응형 */
+@media screen and (max-width: 1080px) {
+  .my_info_edit_pw_pop {
+    width: 97rem;
+    padding: 7.5rem 7rem 7rem 7rem;
+  }
+  .my_info_edit_pw_pop .pop_tit {
+    margin-bottom: 12rem;
+  }
+  .my_info_edit_pw_pop h4 {
+    font-size: 4rem;
+    color: #242a32;
+    margin: 8rem 0 4rem 0;
+  }
+  .my_info_edit_pw_pop .small_text {
+    font-weight: 300;
+    font-size: 3.2rem;
+    line-height: 1.2;
+    color: #999;
+    margin-top: 2rem;
+  }
+  .my_info_edit_pw_pop .small_text span {
+    display: none;
+  }
+  .my_info_edit_pw_pop .btn_box {
+    margin-top: 5.3rem;
+  }
+
+  /* MyInfoWithdrawalPop 회원탈퇴 팝업 까망글씨만 조정 -모바일 */
+  .my_info_withdrawal_pop .withdrawal_text {
+    font-size: 3rem;
+    line-height: 4.8rem;
+    margin-top: 15rem;
+  }
+  .my_info_withdrawal_pop .withdrawal_text span {
+    display: none;
+  }
+}

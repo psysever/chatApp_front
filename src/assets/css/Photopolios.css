@@ -1,0 +1,369 @@
+.community_tab {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0 8.6rem;
+}
+
+.community_tab li {
+  margin: 0 5.25rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.9;
+  color: #999;
+  cursor: pointer;
+}
+
+.community_tab li.nowpage {
+  color: #000;
+  border-bottom: 0.2rem solid #222;
+}
+
+/* event */
+.event_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.event_list li {
+  width: 48.3%;
+  margin-bottom: 4.2rem;
+}
+
+@media (max-width: 1080px) {
+  .community_tab {
+    margin: 0 0 18.4rem;
+    justify-content: space-evenly;
+  }
+
+  .community_tab li {
+    font-size: 4rem;
+    line-height: 2.2;
+  }
+
+  .event {
+    padding: 0 8rem;
+  }
+
+  .event_list li {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+
+  .event_list li:last-child {
+    margin: 0;
+  }
+}
+
+.list {
+  padding: 14rem 32.2rem;
+}
+
+.question_btn {
+  width: 100%;
+  float: left;
+}
+
+.question_btn a {
+  width: 15rem;
+  margin-bottom: 2rem;
+  line-height: 5rem;
+  text-align: center;
+  border: 0.1rem solid #000;
+  float: right;
+}
+.serch_Info {
+  display: flex;
+  margin: 0rem 0rem 3rem 77rem;
+}
+.serch_Info input {
+  position: relative;
+  width: 30rem;
+}
+
+.serch_Info div {
+  width: 20rem;
+  font-size: 4rem;
+  text-align: center;
+  color: #ccc;
+  background-color: rgb(14, 13, 13);
+  cursor: pointer;
+}
+
+.qu_list {
+  clear: both;
+  border-bottom: 0.1rem solid #ccc;
+  line-height: 1.6;
+}
+
+.qu_head {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 3rem 3rem 6rem;
+  border-top: 0.1rem solid #ccc;
+  cursor: pointer;
+}
+
+.question .qu_head {
+  cursor: auto;
+}
+
+.qu_head div {
+  display: flex;
+  width: 85%;
+  font-weight: 500;
+}
+.qu_head p {
+  font-size: 3rem;
+}
+
+.qu_head div p:first-child {
+  width: 50%;
+}
+
+.qu_head div p:nth-child(2) {
+  width: 35%;
+}
+
+.qu_list button {
+  width: 10%;
+  margin-left: 50%;
+  cursor: pointer;
+}
+
+.qu_head span {
+  color: #999;
+}
+
+.list_info .none {
+  display: none;
+}
+
+.ask {
+  padding: 4.3rem 11rem 10rem;
+  border-top: 0.1rem solid #ccc;
+}
+
+.answer {
+  padding: 3.5rem 11rem;
+  background: #f6f6f6;
+  border-top: 0.1rem solid #ccc;
+}
+
+.notice_contents {
+  padding: 3rem 11rem 6.5rem;
+  background: #f6f6f6;
+  border-top: 0.1rem solid #ccc;
+}
+
+.notice_contents .Q {
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+/* review list */
+
+.rv_list {
+  border-top: 0.1rem solid #ccc;
+}
+
+.rv_list li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 3.7rem 0;
+  border-bottom: 0.1rem solid #ccc;
+}
+
+.rv_list li > p {
+  width: 10rem;
+  text-align: center;
+}
+
+.rv_top {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 3rem;
+  color: #999;
+}
+
+.review .star {
+  display: flex;
+  margin-left: 4rem;
+}
+
+.review .star img {
+  width: 1.6rem;
+  margin-right: 0.2rem;
+}
+
+.rv_text {
+  width: 80%;
+}
+
+.rv_text h4 {
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.rv_text p {
+  font-size: 1.45rem;
+  line-height: 1.5;
+}
+
+.rv_img {
+  display: flex;
+  margin-top: 3.5rem;
+}
+
+.rv_img img {
+  width: 10rem;
+  height: 10rem;
+  margin-right: 2rem;
+}
+
+.rv_btn {
+  position: absolute;
+  top: 3.7rem;
+  right: 2rem;
+}
+
+.rv_btn a,
+.rv_btn p {
+  width: 12.5rem;
+  line-height: 5rem;
+  border: 0.1rem solid #000;
+  text-align: center;
+  margin-bottom: 0.7rem;
+  cursor: pointer;
+}
+
+.rv_btn a:last-child,
+.rv_btn p:last-child {
+  background: #000;
+  color: #fff;
+}
+
+@media (max-width: 1080px) {
+  .list {
+    padding: 0 0 25rem;
+  }
+
+  .question_btn a {
+    width: 22rem;
+    line-height: 10rem;
+    margin-right: 8rem;
+    margin-bottom: 2.5rem;
+    font-size: 4rem;
+  }
+
+  .qu_head {
+    flex-wrap: wrap;
+    padding: 6rem 8rem;
+  }
+
+  .qu_head div {
+    width: 100%;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+  }
+
+  .qu_head div p:first-child {
+    width: 50%;
+  }
+
+  .qu_head div p:nth-child(2) {
+    width: 50%;
+  }
+
+  .qu_head span {
+    display: block;
+    margin-left: 8%;
+  }
+
+  .qu_contents {
+    font-size: 4rem;
+  }
+
+  .ask {
+    padding: 7rem 8rem 13rem;
+  }
+
+  .answer {
+    padding: 7rem 8rem;
+  }
+
+  .notice_contents {
+    padding: 7rem 8rem 13rem;
+  }
+
+  .notice_contents .Q {
+    margin-bottom: 8.8rem;
+  }
+
+  /* review list */
+
+  .rv_list li {
+    padding: 9rem 8rem;
+  }
+
+  .rv_top {
+    display: block;
+  }
+
+  .review .star {
+    margin: 4.5rem 0;
+  }
+
+  .review .star img {
+    width: 3.8rem;
+    margin-right: 0.6rem;
+  }
+
+  .rv_text {
+    width: 100%;
+  }
+
+  .rv_text h4 {
+    font-size: 4rem;
+    margin-bottom: 6rem;
+  }
+
+  .rv_text p {
+    font-size: 4rem;
+  }
+
+  .rv_img {
+    margin-top: 6rem;
+  }
+
+  .rv_img img {
+    width: 16.7rem;
+    height: 16.7rem;
+  }
+
+  .rv_btn {
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7.4rem;
+    font-size: 4.2rem;
+  }
+
+  .rv_btn a,
+  .rv_btn p {
+    width: 43rem;
+    line-height: 13rem;
+  }
+}
+
+.post_up a {
+  margin-top: 5rem;
+  margin-left: 55rem;
+  width: 20rem;
+  height: 5rem;
+  background-color: rgb(197, 238, 13);
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 400;
+}
